@@ -1,0 +1,6 @@
+@echo off
+echo Installing Python if not already installed...
+winget install Python.Python.3.11
+
+echo Starting Pomodoro Timer server...
+python server.py 

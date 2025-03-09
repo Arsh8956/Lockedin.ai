@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="timer-container">
+            <div class="timer-wrapper">
+                <div class="timer">
+                    <div class="time-display">25:00</div>
+                    <div class="timer-controls">
+                        <button id="startBtn" class="control-btn">Start</button>
+                        <button id="resetBtn" class="control-btn">Reset</button>
+                    </div>
+                    <div class="timer-modes">
+                        <button class="mode-btn active" data-time="25">Pomodoro</button>
+                        <button class="mode-btn" data-time="5">Short Break</button>
+                        <button class="mode-btn" data-time="15">Long Break</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tasks-container">
+            <div class="tasks-header">
+                <h2>Tasks</h2>
+                <button id="addTaskBtn" class="add-task-btn">+ Add Task</button>
+            </div>
+            <div class="task-input-container" style="display: none;">
+                <input type="text" id="taskInput" placeholder="What are you working on?">
+                <div class="task-input-buttons">
+                    <button id="saveTaskBtn">Save</button>
+                    <button id="cancelTaskBtn">Cancel</button>
+                </div>
+            </div>
+            <div id="taskList" class="task-list">
+                <!-- Tasks will be added here -->
+            </div>
+        </div>
+    </div>
+
+    <div class="notification" id="notification">
+        <span id="notificationMessage"></span>
+        <button id="closeNotification">×</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html> 
