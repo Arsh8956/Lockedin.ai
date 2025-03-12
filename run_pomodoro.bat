@@ -1,3 +1,3 @@
 @echo off
 echo Opening Pomodoro Timer...
-start "" "%~dp0src\main\resources\static\index.html" 
+start "" "%~dp0src\main\resources\static\index.html"
