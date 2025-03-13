@@ -92,9 +92,3 @@ mvn test
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- Inspired by the Pomodoro Technique® developed by Francesco Cirillo
-- Built with modern web technologies and best practices
-- Designed for productivity and ease of use 
