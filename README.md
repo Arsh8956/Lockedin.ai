@@ -1,4 +1,4 @@
-# Pomodoro Timer
+# Lockedin.Ai
 
 A modern, feature-rich Pomodoro Timer application with task management capabilities. Built with Java Spring Boot backend and vanilla JavaScript frontend.
 
