@@ -2,7 +2,7 @@
 
 A modern, feature-rich Pomodoro Timer application with task management capabilities. Built with Java Spring Boot backend and vanilla JavaScript frontend.
 
-![image](https://github.com/user-attachments/assets/d99bf20a-ab06-4fe7-b264-5ec7b1a6079f)
+![image](https://github.com/user-attachments/assets/09a397a9-ca75-4a47-a621-c91a2ee27299)
 
 
 ## Features
